@@ -1,10 +1,10 @@
 import React from 'react'
 
+import { childrenWithProps } from '../utils/reactUtils'
+
 export default props => (
   <div>
-    <h2>Família</h2>
-    {React.Children.map(props.children, child =>
-      React.cloneElement(child, { ...props })
-    )}
+    <h2>Family</h2>
+    {childrenWithProps(props.children, props)}
   </div>
 )
