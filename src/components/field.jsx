@@ -25,7 +25,7 @@ class Field extends React.Component {
       <div>
         <label>{this.state.value}</label>
         <br />
-        <input onChange={this.handleChange} value={this.state.value} />
+        <input onChange={this.handleChange} value={this.state.value || ''} />
       </div>
     )
   }
