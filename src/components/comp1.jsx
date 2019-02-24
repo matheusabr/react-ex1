@@ -1,9 +1,9 @@
 import React from 'react'
 
 // A functional component
-export default () => (
+export default props => (
   <div>
-    <h3>Component #1</h3>
+    <h3>Component #{props.number}</h3>
     <span>Using arrow function</span>
   </div>
 )
