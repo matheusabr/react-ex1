@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import Comp1 from './components/comp1'
-import { FirstComp, SecondComp } from './components/multComp'
+import FirstComp, { SecondComp } from './components/multComp'
 
 ReactDOM.render(
   <div>
