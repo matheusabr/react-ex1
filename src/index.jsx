@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom'
 import ClassComponent from './components/classComponent'
 
 ReactDOM.render(
-  <ClassComponent value={'Props to class'} />,
+  <ClassComponent label={'Counter'} initialValue={10} />,
   document.getElementById('app')
 )
