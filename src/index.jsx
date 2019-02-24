@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Comp1 from './components/comp1';
+
 ReactDOM.render(
-    <h2>React App #1</h2>,
+    <Comp1 />,
     document.getElementById('app')
 )
